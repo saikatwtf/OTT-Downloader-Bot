@@ -30,19 +30,19 @@
 
 - NETFLIX
   
-  - [ ] Video 
-  - [ ] Shows
-  - [ ] Movie
-  - [ ] Series 
-  - [ ] Posters
+  - [x] Video 
+  - [x] Shows
+  - [x] Movie
+  - [x] Series 
+  - [x] Posters
   - [ ] 4k Format
 
 Note: DRM Protected Videos Can be extracted.
 
 - Amazon Prime 
   
-  - [ ] Videos
-  - [ ] Music (Flac)
+  - [x] Videos
+  - [x] Music (Flac)
   - [ ] Rental Movie
   - [ ] 2160p Support
 
@@ -50,16 +50,16 @@ Note: DRM Protected Videos Can be extracted.
 
 - Voot
 
-  - [ ] Movie
-  - [ ] series 
-  - [ ] TV Shows 
+  - [x] Movie
+  - [x] series 
+  - [x] TV Shows 
 
 Note: DRM Protected Videos Can be extracted.
 
 - Disney Plus Hotstar
 
-  - [ ] Live Match 
-  - [ ] Movie, Series, TV Serials
+  - [x] Live Match 
+  - [x] Movie, Series, TV Serials
 
 Note: DRM Protected Videos Can be extracted.
 
