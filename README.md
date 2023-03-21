@@ -67,5 +67,31 @@ Note: DRM Protected Videos Can be extracted.
 ---
   - Join [Telegram Channel](https://telegram.me/AnnihilusOP) to get more Bots and their updates.
 
+##
+### Installation
+#### Deploy on Heroku
+**BEFORE YOU DEPLOY ON HEROKU, YOU SHOULD FORK THE REPO AND CHANGE ITS NAME TO ANYTHING ELSE**<br>
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)</br>
+
+#### Deploy on Railway
+[![Deploy on Railway](https://railway.app/button.svg)](https://railway.app/new/template/prank)
+
+#### Deploy on Koyeb
+
+The fastest way to deploy the application is to click the **Deploy to Koyeb** button below.
+
+
+[![Deploy to Koyeb](https://www.koyeb.com/static/images/deploy/button.svg)](https://app.koyeb.com/deploy?type=git&repository=github.com/saikatwtf/OTT-DOWNLOADER-BOT&branch=koyeb&name=OTT-Downloader-Bot)
+
+
+#### Deploy in your VPS
+````bash
+git clone https://github.com/saikatwtf/OTT-Downloader-Bot
+cd OTT-Downloader-Bot
+pip3 install -r requirements.txt
+# <Create config.py appropriately>
+python3 main.py
+````
+
 ### LICENSE
 - GPLv3
