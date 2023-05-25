@@ -95,3 +95,7 @@ python3 main.py
 
 ### LICENSE
 - GPLv3
+
+
+Parody hai bhay Gali mat dena
+
