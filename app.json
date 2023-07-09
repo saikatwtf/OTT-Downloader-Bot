@@ -1,0 +1,75 @@
+{
+  "name": "URL Uploader",
+  "description": "DRM Downloader Telegramic Bot!",
+  "keywords": [
+    "telegram",
+    "url",
+    "uploader"
+  ],
+  "success_url": "https://github.com/TheCaduceus",
+  "website": "https://github.com/TheCaduceus",
+  "repository": "https://github.com/releaseuserbot",
+  "env": {
+    "WEBHOOK": {
+      "description": "Leave this as it is!",
+      "value": "ANYTHING"
+    },
+    "TG_BOT_TOKEN": {
+      "description": "Your bot token from @botfather, as a string.",
+      "value": ""
+    },
+    "APP_ID": {
+      "description": "Get this value from https://my.telegram.org",
+      "value": ""
+    },
+    "API_HASH": {
+      "description": "Get this value from https://my.telegram.org",
+      "value": ""
+    },
+    "SCREENSHOTS": {
+      "description": "Generate screenshots for file after uploading ( True or false )",
+      "value": "True",
+      "required": false
+    },
+    "AUTH_USERS": {
+      "description": "allow only pre-defined users to use this bot",
+      "value": "680815375"
+    },
+    "BANNED_USERS": {
+      "description": "Ban Unwanted members..",
+      "value": "",
+      "required": false
+    },
+    "DEF_THUMB_NAIL_VID_S": {
+      "description": "default thumbnail link to be used in the videos if youtube-dl is unable to find a thumbnail. Get a link for your image from @TGraphHEXbot",
+      "value": "",
+      "required": false
+    },
+    "HTTP_PROXY": {
+      "description": "proxy for accessing youtube-dl in GeoRestricted Areas. Get your own proxy from https://github.com/rg3/youtube-dl/issues/1091#issuecomment-230163061",
+      "value": "",
+      "required": false
+    }
+  },
+  "addons": [
+    {
+      "plan": "heroku-postgresql",
+        "options": {
+          "version": "12"
+        }
+      }
+  ],
+  "buildpacks": [{
+    "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest"
+  }, {
+    "url": "https://github.com/opendoor-labs/heroku-buildpack-p7zip"
+  }, {
+    "url": "heroku/python"
+  }],
+  "formation": {
+    "worker": {
+      "quantity": 1,
+      "size": "free"
+    }
+  }
+}
